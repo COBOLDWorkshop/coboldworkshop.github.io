@@ -1,0 +1,34 @@
+ /* HTML options */
+ html {
+   scroll-behavior: smooth;
+   background-color: #ececec;
+ }
+
+ /* h1, h2, h3, h4 {
+   padding-top: 32px;
+ } */
+
+ body.homepage #header {
+   height: unset;
+ }
+
+img {
+  border: 1px solid black;
+}
+
+/* Custom sections 
+----------------------------------------------------------- */
+/* Organising Committee */
+div .committee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  margin-top: 1.5em;
+}
+
+
+div .committee p{
+  font-size: 1.5em;
+}
